@@ -6,18 +6,70 @@
     
     <title>Alaobá</title>
 
-    <link rel="stylesheet" href="../public/styles/identificacao.css">
+    <script  defer
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDIEiEkJ6nWmUggvHvFecFDE4Dch15yuXM&callback=initMap">
+    </script>
+    
+    <link rel="stylesheet" href="/public/styles/cliente/cliente.css">
 </head>
 <body>
     <header>
-        <div>
-            <img src="../assets/icons/logo-alaoba.svg" alt="logo-alaoba">
-        </div>
-        
+        <nav>
+            <img src="/assets/icons/logo-alaoba.svg" alt="logo-alaoba">
+            <div class="saldo">
+                <p>Saldo disponível</p>
+                <h1>3333 MOEDAS</h1>
+            </div>
+            <img class="button" src="/assets/icons/menu-button.svg" alt="menu">
+        </nav>
+        <script src="../../public/scripts/map.js"></script>
     </header>
-    <div class="buttons">
-        <button type="button">sou cliente </button>
-        <button type="button">sou barista </button>
+    
+    <div class="main">
+        <div id="map"></div>
+
+        <nav>
+            <header>
+                <img src="" alt="">
+                <p>Jessé Gomes da Silva Filho</p>
+            </header>
+                <ul>
+                 <li>
+                     <img src="/assets/icons/editar.svg" alt="editar">
+                     <p>Ver/Editar perfil</p>
+                 </li>
+                 <li>
+                     <img src="/assets/icons/recomendar.svg" alt="">
+                     <p>Recomendar</p>
+                 </li>
+                 <li>
+                     <img src="/assets/icons/partner.svg" alt="">
+                     <p>Quem tá cmg!</p>
+                 </li>
+                 <li>
+                     <img src="/assets/icons/notification.svg" alt="">
+                     <p>Notificações</p>
+                 </li>
+                 <li>
+                     <img src="/assets/icons/avaliar.svg" alt="">
+                     <p>Avaliar bares</p>
+                 </li>
+                </ul>
+         </nav>
     </div>
+
+    <footer>
+        <div>
+            <img src="/assets/icons/dinheiro.svg" alt="dinheiro">
+            <p>usar moedas</p>
+        </div>
+
+        <div>
+            <img src="/assets/icons/saida.svg" alt="saida">
+            <p>tô vazando</p>
+        </div>
+    </footer>
+
+
 </body>
 </html>
