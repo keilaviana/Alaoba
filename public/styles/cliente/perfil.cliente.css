@@ -69,7 +69,8 @@
     font-weight: 600;
   }
   
-  .button{
+  .menu{
+    cursor: pointer;
     width: 28px;
     height: 24px;
   }
@@ -77,6 +78,7 @@
   /* === main === */
 
 main{
+  
     position: relative;
     max-width: 360px;
     margin: 0 auto;
@@ -89,14 +91,12 @@ main div{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    
-    top: 57px;
-    position: absolute;
+   
     width: 360px;
 }
 
 main div img{
-    margin: 0 auto;
+    margin: 50px auto 0;
     margin-bottom: 20px;
 }
 
