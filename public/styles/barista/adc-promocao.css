@@ -151,3 +151,20 @@ body header {
     margin: 0 auto;
     margin-left: 43px;
 }
+
+#buttom-excluir{
+    width: 156px;
+    height: 44px;
+    border-radius: 10px;
+    border: none;
+    background-color: #D94F30;
+    box-shadow: none;
+    outline: 0;
+    cursor: pointer;
+
+    font-size: 25px;
+    font-weight: bold;
+
+    margin: 15px auto;
+    margin-left: 43px;
+}
