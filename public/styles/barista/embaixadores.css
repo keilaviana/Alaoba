@@ -34,7 +34,7 @@ body header {
   body header nav{
     padding-top: 5px;
     display: flex;
-    justify-content: center;
+    justify-content:space-around;
     align-items: center;
     max-width: 360px;
     margin: 0 auto;
