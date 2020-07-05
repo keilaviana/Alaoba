@@ -17,12 +17,14 @@
 <body>
     <header>
         <nav>
+            
             <img class="logo" src="/assets/icons/logo-alaoba.svg" alt="logo-alaoba">
+
             <div class="saldo">
                 <p>Saldo disponível</p>
                 <h1>3333 MOEDAS</h1>
             </div>
-            <img class="button" src="/assets/icons/menu.png" alt="menu">
+            <img class="buttom" src="/assets/icons/menu.png" alt="menu">
         </nav>
         
     </header>
@@ -30,30 +32,36 @@
     <div class="main">
         <div id="map"></div>
 
-        <nav>
+        <nav class="navbar">
             <div>
+                <img class="fechar" src="/assets/icons/x.svg" alt="fechar" style="top: 0;left: 0;margin: 5px;position: absolute; cursor: pointer;">
                 <img src="/assets/zeca.png" alt="">
                 <p>Jessé Gomes da Silva Filho</p>
             </div>
                 <ul>
                     <li>
                         <img src="/assets/icons/editar.svg" alt="editar">
-                        <p>Ver/Editar perfil</p>
+                        <a href="/views/cliente/perfil-cliente.html"><p>Ver/Editar perfil</p></a>
+                        
                     </li>
                     <li>
                         <img src="/assets/icons/recomendar.svg" alt="">
-                        <p>Recomendar</p>
+                        <a href="/views/cliente/recomendar.html"><p>Recomendar</p></a>
+                        
                     </li>
                     <li>
                         <img src="/assets/icons/partner.svg" alt="">
-                        <p>Quem tá cmg!</p>
+                        <a href="/views/cliente/tamo-junto.html"><p>Quem tá cmg!</p></a>
+                        
                     </li>
                     <li>
                         <img src="/assets/icons/notification.svg" alt="">
-                        <p>Notificações</p>
+                        <a href="/views/cliente/notificacoes.html"><p>Notificações</p></a>
+                        
                     </li>
                     <li>
                         <img src="/assets/icons/avaliar.svg" alt="">
+
                         <p>Avaliar bares</p>
                     </li>
                 </ul>
@@ -71,7 +79,7 @@
             <p>tô vazando</p>
         </div>
     </footer>
-
+    <script src="/public/scripts/menu.js"></script>
 
 </body>
 </html>

@@ -75,7 +75,8 @@ body header nav div h1{
   font-weight: 600;
 }
 
-.button{
+.buttom{
+  cursor: pointer;
   width: 28px;
   height: 24px;
 }
@@ -87,7 +88,8 @@ body header nav div h1{
   position: relative;
 }
 
-.main nav{
+.navbar{
+  visibility: hidden;
   position: absolute;
   right: 0;
   top: 0;
@@ -95,15 +97,15 @@ body header nav div h1{
   height: 500px;
   
 }
-.main nav div{
+.navbar div{
   background-color: #730217;
 }
 
-.main nav div img{
+.navbar div img{
   margin: 17px;
 }
 
-.main nav div p{
+.navbar div p{
   margin-left: 17px;
   padding-bottom: 27px;
   color: white;
@@ -111,13 +113,13 @@ body header nav div h1{
   font-weight: bold;
 }
 
-.main nav ul{
+.navbar ul{
   padding-top: 34px;
   padding-bottom: 43px;
   background-color: white;
 }
 
-.main nav ul li {
+.navbar ul li {
   list-style: none;
   margin-left: 26px;
 
@@ -127,17 +129,20 @@ body header nav div h1{
   
 }
 
-.main nav ul li img{
+.navbar ul li img{
   margin-right: 17px;
 }
 
-.main nav ul li p{
+.navbar ul li a{
+  text-decoration: none;
+}
+.navbar ul li p{
   font-size: 25px;
   color: #636363;
   
 }
 
-.main nav ul li + li{
+.navbar ul li + li{
   margin-top: 43px;
 }
 
@@ -158,4 +163,8 @@ footer div{
 
 footer div p{
   font-size: 12px;
+}
+
+.navbar.visible{
+  visibility: visible;
 }
