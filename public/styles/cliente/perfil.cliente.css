@@ -78,9 +78,8 @@
   /* === main === */
 
 main{
-  
-    position: relative;
-    max-width: 360px;
+  position: relative;
+    width: 360px;
     margin: 0 auto;
     height: 600px;
     background-image: url(/assets/beer-background.png);

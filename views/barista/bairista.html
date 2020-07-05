@@ -23,11 +23,18 @@
     </header>
     <main>
 
-        <input class="buttom" type="button" value="cobrar" id="buttom">
+        <form action="/views/barista/gerar-qrcode.html" style="margin-bottom: 30px;">
+            <input class="buttom" type="submit" value="cobrar" id="buttom">
+        </form>
+       
+        <form action="/views/barista/gerar-token.html" style="margin-bottom: 30px;">
+            <input class="buttom" type="submit" value="gerar token" id="buttom">
+        </form>
 
-        <input class="buttom" type="button" value="gerar token" id="buttom">
-
-        <input class="buttom" type="button" value="ver/editar perfil" id="buttom">
+        <form action="/views/barista/perfil-bairista.html">
+            <input class="buttom" type="submit" value="ver/editar perfil" id="buttom">
+        </form>
+          
     </main>
     
     
